@@ -1,0 +1,45 @@
+<h1 class="text-center mb-4">SET-A   Q & A</h1>
+<ul class="list-unstyled">
+  <li>
+    <h5>1. How to create reactive forms?</h5>
+    <p>Answer: To create reactive forms, first, import ReactiveFormsModule in your Angular module. Then, use FormBuilder and FormGroup to define and manage form controls. Reactive forms are useful for handling complex form logic and validations.</p>
+  </li>
+  <li>
+    <h5>2. How to add built-in validation for email in reactive form?</h5>
+    <p>Answer: Angular provides a built-in validator Validators.email that can be used for validating email input in a reactive form.</p>
+  </li>
+  <li>
+    <h5>3. How to add built-in validation for required fields in reactive form?</h5>
+    <p>Answer: The Validators.required built-in validator ensures that the input field must not be empty.</p>
+  </li>
+  <li>
+    <h5>4. How to add regex validation for reactive forms?</h5>
+    <p>Answer: To add regex validation, you can use Validators.pattern and pass a regular expression.</p>
+  </li>
+  <li>
+    <h5>5. How to generate routing?</h5>
+    <p>Answer: To generate routing, run <code>ng generate module app-routing --flat --module=app</code>. This creates a routing module that you can configure in app-routing.module.ts.</p>
+  </li>
+  <li>
+    <h5>6. How to configure routes with parameters?</h5>
+    <p>Answer: To configure routes with parameters, use the <code>:parameter</code> syntax in the path. You can access the parameters using ActivatedRoute.</p>
+  </li>
+  <li>
+    <h5>7. What is DebounceTime in RxJS?</h5>
+    <p>Answer: <code>debounceTime</code> is an RxJS operator that waits for a specified period after the last emitted value before emitting the final value. It is useful for preventing multiple requests in quick succession.</p>
+  </li>
+  <li>
+    <h5>8. What is the pipe operator?</h5>
+    <p>Answer: The pipe operator in RxJS allows you to chain multiple operators together. It's used to transform, filter, or manage the data flow.</p>
+  </li>
+  <li>
+    <h5>9. What is the distinctUntilChanged operator?</h5>
+    <p>Answer: The <code>distinctUntilChanged</code> operator ensures that only distinct values (values that are different from the previous value) are emitted, which is useful in scenarios where you want to avoid redundant processing.</p>
+  </li>
+  <li>
+    <h5>10. What is the filter operator in RxJS?</h5>
+    <p>Answer: The filter operator allows you to emit values from an observable based on a condition, filtering out unwanted values.</p>
+  </li>
+</ul>
+<a routerLink="register" class="btn btn-primary">Second Route</a>
+<button class="btn btn-primary" disabled>First Route</button>
